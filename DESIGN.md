@@ -21,19 +21,19 @@ typography:
     lineHeight: 1.35
   h2:
     fontFamily: Noto Sans JP
-    fontSize: 32px
+    fontSize: 36px
     fontWeight: 700
     lineHeight: 1.5
   h3:
     fontFamily: Noto Sans JP
-    fontSize: 18px
+    fontSize: 20px
     fontWeight: 700
     lineHeight: 1.7
   body-md:
     fontFamily: Noto Sans JP
-    fontSize: 16px
+    fontSize: 18px
     fontWeight: 400
-    lineHeight: 1.7
+    lineHeight: 1.8
 rounded:
   sm: 4px
   md: 8px
@@ -88,7 +88,7 @@ components:
 主色は DADS の blue-900。見出しは blue-1200、薄い背景は blue-50。文字は本文 #1A1A1C、補足 #626264 で、どちらも白地で 4.5:1 以上。フォーカスは DADS の決まりどおり黄（yellow-300）と黒の二重線にし、変えない。
 
 ## Typography
-Noto Sans JP の Regular と Bold だけを使う。本文は 16px・行の高さ 1.7。スマートフォンでは見出しを 30px / 24px に下げる。
+Noto Sans JP の Regular と Bold だけを使う。本文は 18px・行の高さ 1.8（スマートフォンは 17px）。介護の現場の方が読みやすいよう、小さい文字は 15px までにする。スマートフォンでは見出しを 30px / 27px に下げる。
 
 ## Layout
 最大幅 1120px、左右の余白 16px。セクションの上下は 64px（スマートフォンは 40px）。
@@ -101,4 +101,5 @@ Noto Sans JP の Regular と Bold だけを使う。本文は 16px・行の高�
 
 ## Do's and Don'ts
 - 料金は検討中のため「仮」を必ず付ける。
+- 地図のピンの色はアプリと同じ値（緑 #22C55E・オレンジ #F59E0B・赤 #EF4444・紫 #C084FC）にし、意味も同じにする。
 - 実績や導入数など、確かめていない数字は書かない。
